@@ -1,9 +1,5 @@
 module ArticlesHelper
   def article_params
-<<<<<<< HEAD
     params.require(:article).permit(:title ,:body, :tag_list)
-=======
-    params.require(:article).permit(:title ,:body)
->>>>>>> 885a62ae69fbc97cad85ce2f97107d980df90e88
   end
 end
